@@ -441,3 +441,39 @@ header.masthead p {
 .slick-arrow.slick-hidden {
   display: none;
 }
+
+
+
+
+
+
+.slider-for{
+	width: 500px;
+	height: 250px;
+	margin: 30px auto 1px;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+	min-height: 100%;
+}
+.slider-nav{
+	width: 80%;
+	
+	margin: auto;
+}
+.slider-nav .slick-track{
+	height: 100%;
+}
+.slick-arrow{
+		position: absolute;
+    top: 50%;
+    z-index: 50;
+    margin-top: -12px;
+}
+.slick-prev{
+	left: 0;
+}
+.slick-next{
+	right: 0;
+}
