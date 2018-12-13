@@ -252,6 +252,65 @@
             </div>
         </div>
     </section>
+    <section id="team" class="bg-dark text-white">
+      <div class="special">
+          <div class="container">
+            <div class="text-center">
+              <h3>Team</h3>
+            </div>
+            <section class="team slider">
+                <div class="slide">
+                  <div class="card text-center services p-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4YYXuw-tuRJqJuPp70E5O3zxtp17OPNwNXqXzXG5e7Xc3hPCXJQ" alt="" class="rounded-circle">
+                    <div class="card-body">
+                      <a class="text-white" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="card text-center services p-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCypPv1-VqRAuXstqbSy7EXilRcolO1ijzrHYe6gOCu0dPIaLT" alt="" class="rounded-circle">
+                    <div class="card-body">
+                        <a class="text-white" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="card text-center services p-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREbwXEQ1Ed3XTouCUiJCq212Tc37wm4YOXEIXRPDT1eFqpgAws" alt="" class="rounded-circle">
+                    <div class="card-body">
+                        <a class="text-white" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">  
+                  <div class="card text-center services p-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMTe-JwZ8GLkrU8EvuUqLtx-TaUiH_KFhAR1VugzUaP3I-Wvh" alt="" class="rounded-circle">
+                    <div class="card-body">
+                        <a class="text-white" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="card text-center services p-2">
+                    <img src="https://www.notizie.it/wp-content/uploads/2017/10/reese.jpg" alt="" class="rounded-circle">
+                    <div class="card-body">
+                        <a class="text-white" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                    <div class="card text-center services p-2">
+                      <img src="https://www.notizie.it/wp-content/uploads/2017/10/reese.jpg" alt="" class="rounded-circle">
+                      <div class="card-body">
+                          <a class="text-white" href=""><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                 </section>
+          </div>
+      </div>
+  </section>
 
     <section id="contact">
       <div class="container">
@@ -324,7 +383,29 @@
             }
         }]
     });
+    $('.team').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 10000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
 });
+
+
     </script>
 
     <script>
