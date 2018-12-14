@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Creative v5.0.1 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
- */
-
 body,
 html {
   width: 100%;
@@ -459,7 +453,6 @@ img{
 }
 .slider-nav{
 	width: 80%;
-	
 	margin: auto;
 }
 .slider-nav .slick-track{
@@ -534,3 +527,33 @@ section#contact :-ms-input-placeholder {
   color: #ced4da;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+section{
+  height: 100vh;
+}
+
+.slider-for-aliados{
+	width: 80%;
+	height: 250px;
+	margin: 30px auto 1px;
+	overflow: hidden;
+}
+.slider-nav-aliados{
+	width: 100%;
+	height: 200px;
+	margin: auto;
+}
+
+.slider-nav-aliados>.slick-list{
+  height: 100%;
+}
+
+
+.slider-nav-aliados>.slick-list>.slick-track>.slick-center>img{
+  -webkit-box-shadow: 36px 35px 158px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 36px 35px 158px -15px rgba(0,0,0,0.75);
+  box-shadow: 36px 35px 158px -15px rgba(0,0,0,0.75);
+  
+  
+}
+
