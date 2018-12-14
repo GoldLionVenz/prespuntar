@@ -630,3 +630,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .team-slider .slick-list .slick-track{
   padding: 10%;
 }
+
+section#about{
+  height: 50vh;
+}
