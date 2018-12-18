@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 hr {
@@ -168,6 +168,15 @@ img::-moz-selection {
     color: #E62D40;
   }
 }
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 header.masthead {
   padding-top: 10rem;
@@ -317,7 +326,8 @@ header.masthead p {
 }
 
 .logo{
-  width: 40%;
+  margin-left: 30%;
+  width: 30%;
 }
 
 .services{
