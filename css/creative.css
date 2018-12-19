@@ -106,20 +106,22 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  color: #212529;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #E62D40;
+  font-weight: 700;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #E62D40 !important;
   background-color: transparent;
+  
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
@@ -151,7 +153,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #526479;
+    background-color: rgba(2,21,27,.7);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #E62D40;
@@ -161,7 +163,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -331,7 +333,14 @@ header.masthead p {
 }
 
 .services{
-  background: #E62D40;
+  background: rgba(138,21,44,1);
+  background: -moz-linear-gradient(45deg, rgba(138,21,44,1) 0%, rgba(138,21,44,1) 17%, rgba(230,45,64,1) 83%, rgba(230,45,64,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(138,21,44,1)), color-stop(17%, rgba(138,21,44,1)), color-stop(83%, rgba(230,45,64,1)), color-stop(100%, rgba(230,45,64,1)));
+  background: -webkit-linear-gradient(45deg, rgba(138,21,44,1) 0%, rgba(138,21,44,1) 17%, rgba(230,45,64,1) 83%, rgba(230,45,64,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(138,21,44,1) 0%, rgba(138,21,44,1) 17%, rgba(230,45,64,1) 83%, rgba(230,45,64,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(138,21,44,1) 0%, rgba(138,21,44,1) 17%, rgba(230,45,64,1) 83%, rgba(230,45,64,1) 100%);
+  background: linear-gradient(45deg, rgba(138,21,44,1) 0%, rgba(138,21,44,1) 17%, rgba(230,45,64,1) 83%, rgba(230,45,64,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a152c', endColorstr='#e62d40', GradientType=1 );
 }
 
 .slick-slide {
@@ -618,7 +627,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   border:solid;
   border-color: #212529;
 }
-
+.team-icon{
+  color: #E62D40;
+}
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -626,8 +637,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .team-member img {
   width: 70%;
- 
-  border: 7px solid #fff;
+
 }
 
 .team-member h4 {
@@ -645,4 +655,22 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   -moz-box-shadow: 20px 20px 13px -10px rgba(0,0,0,0.75);
   box-shadow: 20px 20px 13px -10px rgba(0,0,0,0.75);
   margin-bottom: 10px;
+}
+.slide-gallery{
+  height: 480px;
+
+}
+
+section#services {
+  
+  background: rgba(138,21,44,1);
+  
+  background-image: url("../img/servicios-background.png");
+  background-repeat: center;
+  background-position: left 1px center;
+}
+hr.white{
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #fff;
 }
